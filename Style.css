@@ -4,11 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    background: black;
+    background: rgb(43, 40, 40)
 }
 
 header {
-    background-color: black;
+
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -16,8 +16,9 @@ header {
     align-items: baseline;
     height: 80px;
     padding: 20px 150px 5px 20px;
-    position: relative;
+    position: sticky;
     top: 0;
+
 
 }
 
@@ -33,6 +34,7 @@ header {
     text-decoration-color: none;
     gap: 30px;
     font-size: 20px;
+    position: sticky;
 
 }
 
@@ -54,14 +56,14 @@ header {
 #hero-main {
 
     margin-top: 50px;
-    padding: 20px;
-    background: black;
+    padding: 0px 200px;
     color: azure;
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    gap: 30px;
 }
 
 .titulo-empresa {
@@ -107,18 +109,18 @@ header {
 }
 
 .descripcion {
-    margin-right: 250px;
-    margin-left: 250px;
-    margin-top: 15px;
-    background: black;
+    margin-top: 50px;
+    padding: 20px 200px;
+
     color: azure;
-    max-width: 2000px;
+    width: 100%;
+
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    font-weight: 400;
-   
+    position: relative;
+    font-size: 20px;
 }
 
 .botones {
@@ -131,6 +133,7 @@ header {
     font-size: 16px;
     gap: 1px;
     border: none;
+    margin: 0;
 
 
 }
@@ -148,13 +151,161 @@ header {
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-
-
-
     background-position: right center;
     color: #fff;
     text-decoration: none;
+
+
+}
+
+.ventajas {
+    display: flex;
+    flex-direction: column;
+}
+
+.ventajas h1 {
+    display: flex;
+    font-size: 48px;
+
+    width: 100%;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    background: linear-gradient(rgb(245, 245, 225), rgb(70, 59, 59));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 70px;
+}
+
+.ventajas h3 {
+    margin-top: 50px;
+    padding: 20px 200px;
+    background: linear-gradient(rgb(245, 245, 225), rgb(70, 59, 59));
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+
+
+}
+
+#cards {
+    margin-top: 50px;
+    padding: 0px 200px;
+    color: azure;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+#cards h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+.cardscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 2000px;
+
+
+}
+
+.infocards {
+    width: 300px;
+    height: 300px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    border-radius: 10px;
+    border-color: #414345;
+    border-style: double;
+    background: black;
+
+}
+
+.footercontainer {
+
+
+    margin-top: 50px;
+    padding: 0px 200px;
+    color: azure;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 30px;
 }
 
 
 
+.contacto h1 {
+    font-size: 32px;
+    width: 80%;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.contacto {
+
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    align-items: center;
+}
+   
+
+
+.contacto li {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 50px;
+
+
+
+}
+
+.nosotros {
+    border-radius: 20px;
+    padding: 15px 15px;
+    background: gray;
+    size: 100px;
+    max-width: 75%;
+    margin-right: 100px;
+
+}
+.nosotros img {
+    
+    width: 800px;
+    height: 495px;
+   
+}
