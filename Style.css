@@ -277,7 +277,11 @@ header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     gap: 20px;
     padding: 100px;
-    display: block
+    display: block;
+    background: linear-gradient(rgb(245, 245, 225), rgb(70, 59, 59));
+    -webkit-background-clip: text;
+    color: transparent;
+
   
 
 
@@ -299,6 +303,7 @@ header {
     display: block;
     text-align: start;
     font-weight: 100;
+    
 }
 
 
